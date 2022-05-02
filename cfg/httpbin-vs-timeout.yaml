@@ -11,6 +11,7 @@ spec:
     - matchers:
       - prefix: /api/httpbin
       options:
+        timeout: '5s'
         regexRewrite: 
           pattern:
             regex: '/api/httpbin/'
